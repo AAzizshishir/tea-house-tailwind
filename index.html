@@ -25,7 +25,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="font-[manrope] h-screen">
+  <body class="font-[manrope]">
     <!-- Header -->
     <header class="p-4 md:pt-8 md:w-4/5 md:mx-auto md:flex md:justify-between">
       <!-- Text Content -->
@@ -76,9 +76,13 @@
         </p>
         <!-- Card Column -->
         <!-- Container -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-5">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-5 md:px0"
+        >
           <!-- children -->
-          <div class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between">
+          <div
+            class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between"
+          >
             <img class="w-full" src="./images/tea-1.png" />
             <!-- text -->
             <div>
@@ -89,7 +93,9 @@
             </div>
           </div>
           <!-- children -->
-          <div class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between">
+          <div
+            class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between"
+          >
             <img class="w-full" src="./images/tea-2.png" />
             <!-- Text -->
             <div>
@@ -100,7 +106,9 @@
             </div>
           </div>
           <!-- children -->
-          <div class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between">
+          <div
+            class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between"
+          >
             <img class="w-full" src="./images/tea-3.png" />
             <!-- Text -->
             <div>
@@ -111,7 +119,9 @@
             </div>
           </div>
           <!-- children -->
-          <div class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between">
+          <div
+            class="bg-gray-200 rounded-lg px-3 py-4 mt-5 md:flex md:flex-col md:justify-between"
+          >
             <img class="w-full" src="./images/tea-4.png" />
             <!-- Text -->
             <div>
@@ -125,7 +135,52 @@
       </section>
       <!-- Product Section End -->
 
-      <!--  -->
+      <!-- Great Tea Section -->
+      <section class="p-10">
+        <!-- Main Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6">
+          <!-- Left Column -->
+          <div class="grid grid-cols-2 grid-rows-3 gap-4">
+            <div
+              class="bg-gradient-to-r from-red-200 to-red-300 rounded-lg"
+            ></div>
+            <div class="bg-red-100 rounded-lg pt-6 px-5 pb-2 row-span-2">
+              <img src="./images/fresh-1.png" />
+            </div>
+            <div class="bg-gray-100 rounded-lg pt-6 pb-2 px-5 row-span-2">
+              <img src="./images/fresh-2.png" />
+            </div>
+            <div
+              class="bg-gradient-to-r from-gray-100 to-gray-300 rounded-lg"
+            ></div>
+          </div>
+          <!-- Right Column -->
+          <div class="flex flex-col gap-3 mt-6">
+            <h1 class="text-3xl font-extrabold">
+              Great Tea, Freshly <br />
+              Presented
+            </h1>
+            <p class="text-gray-500">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+            <h3 class="text-xl font-bold">Unique Taste</h3>
+            <p class="text-gray-500">
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+            <h3 class="text-xl font-bold">Premium Quality</h3>
+            <p class="text-gray-500">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Great Tea Section End -->
     </main>
   </body>
 </html>
